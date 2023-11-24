@@ -1,0 +1,7 @@
+.contacto__preguntas a{
+    color: white;
+    text-decoration: none;
+}
+.contacto__preguntas a:hover{
+    color: aqua;
+}

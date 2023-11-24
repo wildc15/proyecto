@@ -1,0 +1,14 @@
+.seccion{
+    align-items: center;
+    background-color:#186486 ;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+    
+}
+.seccion a{
+    margin: 5px;
+    color: white;
+    align-items: center;
+}

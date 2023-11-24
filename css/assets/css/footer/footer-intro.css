@@ -1,0 +1,27 @@
+.footer__intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 400px;
+    background: rgb(27, 27, 27, .5 );
+    color: white;
+    transition: .5s;
+}
+.footer__intro h3{
+    
+    color: aliceblue;
+    margin: 10px;
+    font-size: 20px;
+}
+.footer__intro p{
+    
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.span{
+    font-weight: bold;
+}

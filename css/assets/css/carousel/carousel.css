@@ -1,0 +1,16 @@
+.slide{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.slide img{
+    
+    height: 75vh;
+    
+}
+@media (max-width: 768px) {
+    #carouselExampleIndicators img {
+      max-width: 100%;
+      height: auto;
+    }
+  }

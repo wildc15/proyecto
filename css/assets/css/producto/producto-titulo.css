@@ -1,0 +1,24 @@
+.producto__titulo{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #186486;
+    padding-left: 20px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.producto__titulo a{
+    
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+.producto__titulo a:hover{
+    color: aqua;
+}

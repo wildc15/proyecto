@@ -1,0 +1,18 @@
+.producto__contenido{
+    text-align: center;
+}
+.producto__contenido h3{
+    font-weight: 1000;
+    margin-bottom: 15px;
+
+    font-size: 1.4em;
+    margin-bottom: 5px;
+}
+.producto__contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border-radius: 4px;
+}

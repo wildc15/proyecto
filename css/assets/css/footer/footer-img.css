@@ -1,0 +1,6 @@
+.footer__img{
+    height: 400px;
+    width:  350px;
+    border-radius: 3px;
+    transition: .5s;
+}

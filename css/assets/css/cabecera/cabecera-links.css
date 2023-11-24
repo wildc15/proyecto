@@ -1,0 +1,16 @@
+.cabecera__links {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+.cabecera__links a{
+    margin: 20px;
+    color: white;
+}
+.nav-link {
+    font-size: 20px; 
+    text-decoration: none; 
+    
+  }
+  nav a:hover{
+    color: aqua;
+  }

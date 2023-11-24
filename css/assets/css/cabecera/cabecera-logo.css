@@ -1,0 +1,20 @@
+.cabecera__logo{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.cabecera__logo input{
+    margin: 10px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.cabecera__logo2{
+    padding-right: 20px;
+    
+}
+.cabecera__logo2 img{
+    height: 50px;
+}

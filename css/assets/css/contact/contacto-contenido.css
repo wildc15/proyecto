@@ -1,0 +1,24 @@
+.contacto__contenido{
+    display: flex;
+    padding: 60px;
+    color: white;
+  }
+  .contacto__contenido .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+
+@media screen and (max-width: 900px) {
+    footer{
+        position: relative;
+        bottom: 0px;
+    }
+    .contacto__contenido{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .contacto__contenido .box{
+        margin: 5px 0;
+        padding-left: 100px;
+    }
+  }

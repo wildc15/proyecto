@@ -1,0 +1,39 @@
+.producto__card{
+    width: calc(33.33% - 20px);
+    width: 100%;
+    margin: 2px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #91D8F7;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0,2);
+    cursor: default;
+    transition: all 400ms ease;
+    box-sizing: border-box;
+}
+.producto__card:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0,4);
+    transform: translateY(-3%);
+}
+.producto__card img{
+    padding-top: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .producto__card {
+      width: calc(50% - 20px); /* Cambia a dos columnas en pantallas más pequeñas */
+    }
+  
+    .producto__contenido h3 {
+      font-size: 1em; /* Ajusta el tamaño del título para pantallas más pequeñas */
+    }
+  
+    .producto__contenido p {
+      font-size: 0.9em; /* Ajusta el tamaño del párrafo para pantallas más pequeñas */
+    }
+  
+    .producto__contenido a {
+      font-size: 1em; /* Ajusta el tamaño del enlace para pantallas más pequeñas */
+    }
+  }

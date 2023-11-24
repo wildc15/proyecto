@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.box{
+  padding-left: 100px;
+  border-radius: 5px;
+}

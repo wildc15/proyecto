@@ -1,0 +1,28 @@
+.footer__card{
+    height: 400px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+.footer__card:hover{
+    cursor: pointer;
+    
+}
+.footer__card:hover .intro{
+    height: 100x;
+    bottom: 240px;
+    background: black;
+}
+.footer__card:hover p{
+    padding-top: 3rem;
+    justify-content: center;
+    
+    opacity: 1;
+    visibility: visible;
+}
+.footer__card:hover .footer__img{
+    opacity: 0.3;
+    transform: scale(1.1) rotate(-3deg);
+    
+}
+
